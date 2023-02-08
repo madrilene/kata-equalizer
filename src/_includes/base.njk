@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- charset/http-equiv/viewport -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="/">
+          {% include "svg/logo.svg" %}
+          <span class="visually-hidden">{{ title }}</span></a
+        >
+      </header>
+      <main class="flow">
+        <article class="prose flow">
+          {{ content | safe }}
+        </article>
+        <section>asdf</section>
+      </main>
+
+      <footer>{% include "partials/footer.njk" %}</footer>
+    </div>
+
+    <div aria-hidden="true" class="decorative">
+      {% include "svg/decorative-elements.svg" %}
+    </div>
+  </body>
+</html>

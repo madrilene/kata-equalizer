@@ -1,0 +1,20 @@
+{
+  "name": "redradix-equalizer-kata",
+  "version": "1.0.0",
+  "description": "kata 1 maqueta",
+  "main": "index.html",
+  "scripts": {
+    "start": "eleventy --serve --watch",
+    "build": "eleventy"
+  },
+  "author": "Lene Saile",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-beta.3",
+    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.0.0"
+  },
+  "browserslist": [
+    "> 0.2%",
+    "not dead"
+  ]
+}

@@ -1,0 +1,45 @@
+.button,
+.icon-button {
+  display: inline-grid;
+  line-height: 1.1;
+  place-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button {
+  --background: var(--color-primary);
+  --color: var(--color-on-primary);
+  background-color: var(--background);
+  border-radius: 0.25em;
+  color: var(--color);
+  font-size: 1.25rem;
+  padding: 0.65em 0.75em 0.45em;
+}
+
+.button:focus {
+  --outline-offset: -6px;
+  --outline-style: dashed;
+}
+
+.button:focus-visible {
+  --outline-offset: -6px;
+  --outline-style: dashed;
+}
+
+.button--outlined {
+  --background: transparent;
+  --color: var(--color-primary);
+  border: 2px solid;
+}
+
+.icon-button {
+  aspect-ratio: 1;
+  font-size: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon-button svg {
+  height: 1em;
+  width: 1em;
+}

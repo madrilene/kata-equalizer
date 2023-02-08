@@ -1,0 +1,18 @@
+@font-face {
+  font-family: ibmplexsans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url(/fonts/ibmplexsans-regular-webfont.woff2) format("woff2"),
+    url(/fonts/ibmplexsans-regular-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: ibmplexsans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local(""),
+    url(/assets/fonts/ibmplexsans-bold-webfont.woff2) format("woff2"),
+    url(/assets/fonts/ibmplexsans-bold-webfont.woff) format("woff");
+}
